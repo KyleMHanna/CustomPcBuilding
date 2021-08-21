@@ -47,7 +47,7 @@
     <div class="col-md-12 bg-success">
  <nav class="navbar sticky-top navbar-light bg-success center-content">
   <div class="container-fluid">
-    <a class="navbar-brand mdi mdi-star custom-font" href="#">Everything you need to know</a>
+    <a class="navbar-brand mdi mdi-star custom-font" href="#">Pc building at its finest</a>
   </div>
 </nav>
     </div>
@@ -57,32 +57,40 @@
 <main>
   <!-- first container text over image and disappear *done do not touch anymore unless styling -->
   <div class="container-fluid"> 
-    <div class="row backroundimg">
-      <div class="col-md-5">
-      <div class="card bg-info" style="text-align: center;">
-          <div class="">
-            <div class="card-body ">
-              <h2 class="card-title">Contact me</h2>
-              <h1 class="card-subtitle  text-muted">info </h1>
-              <p class="card-text">fill this out!</p>
-              <a href="#" class="btn btn-outline-light bg-primary">Check me out</a>
+    <div class="row backroundimg justify-content-center">
+      <div class="col-md-3 p-5">
+      <div class="card contact-card" style="text-align: center;">
+            <div class="card-body">
+              <h3 class="card-title">Contact me</h3>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+                </div>
+                
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Name</label>
+                  <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                </div>
+              <a href="#" class="btn btn-primary">Submit</a>
             </div>
-        
-          </div>
-        </div>
       </div>
-      <div class="col-md-7 text-center pt-5" id="disappear">
-        <h2 class="custom-font">text disappear an image</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur neque molestiae quidem quae voluptatem del</p>
+      </div>
+      <div class="col-md-9 text-center pt-5" id="disappear">
+        <h2 class="custom-font text-light">text disappear an image</h2>
+        <p class="custom-font text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur neque molestiae quidem quae voluptatem del</p>
       </div>
     </div>
   </div>
   <!-- second container spill image on bigger screens *done do not touch anymore unless styling -->
  <div class="container-fluid">
   <div class="row bg-secondary">
-         <div class="col-md-5 order-2 order-sm-1 text-center ">
-           <h3>About me</h3>
-           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo natus asperiores, alias eveniet delectus quidem harum nemo doloribus, quod eius, libero vero quaerat corrupti cupiditate expedita pariatur iste necessitatibus repudiandae.</p>
+         <div class="col-md-5 order-2 order-sm-1 text-center custom-font">
+           <h3 class="custom-font text-light"> About me</h3> 
+           <br> <p class="custom-font text-light">Lorem ipsum dolor sit amet consectetur
+           <br> adipisicing elit. Explicabo natus asperiores
+           <br> alias eveniet delectus quidem harum nemo doloribus
+           <br> quod eius, libero vero quaerat corrupti<br> cupiditate expedita pariatur iste necessitatibus repudiandae.</p>
            
          </div>
          <!-- spill card column working -->
@@ -111,7 +119,7 @@
            
            <h1> <i class="mdi mdi-star mdi-26px text-danger m-2 "
             aria-hidden="true"></i>About me</h1> 
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus optio, ullam dolores laboriosam quam et laborum. Itaque unde cumque quasi necessitatibus blanditiis dolorem placeat temporibus numquam ab similique? Libero, quam.
+             <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Temporibus optio, ullam <br> dolores laboriosam quam et laborum. Itaque unde cumque quasi <br> necessitatibus blanditiis dolorem placeat temporibus<br> numquam ab similique? Libero, quam.
              </p>
            <a href="#" class="btn btn-primary">Button</a>
          </div>
@@ -119,10 +127,10 @@
      </div>
 
 <!-- 3rd container emphasized cards with middle card on top mobile **done do not touch anymore unless styling -->
-<div class="container-fluid bg-secondary">
+<div class="container-fluid bg-secondary p-3">
   <div class="row align-items-center">
-    <div class="col-md-4 align-items-center order-2 order-sm-3 ">
-      <div class="card" style="">
+    <div class="col-md-4 order-2 order-sm-3 ">
+      <div class="card">
         <div class="card-body">
           <h5 class="card-title text-center">card</h5>
           <p class="card-text text-center">With supporting text below as a natural lead-in to additional content.</p>
@@ -131,15 +139,15 @@
       </div>
     </div> 
     <div class="col-md-4 order-1 order-sm-2 ">
-      <div class="card" style="">
-        <div class="card-body my-3">
+      <div class="card">
+        <div class="card-body my-4">
           <h5 class="card-title text-center">Hightlight this card</h5>
           <p class="card-text text-center">With supporting text below as a natural lead-in to additional content.</p>
           
         </div>
       </div> </div> 
     <div class="col-md-4 order-3 order-sm-1">
-      <div class="card" style="">
+      <div class="card">
         <div class="card-body">
           <h5 class="card-title text-center">card</h5>
           <p class="card-text text-center">With supporting text below as a natural lead-in to additional content.</p>
