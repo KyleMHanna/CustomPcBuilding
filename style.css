@@ -1,0 +1,26 @@
+.backroundimg {
+    background-image: url("https://wallpaperaccess.com/full/2770499.jpg");
+    background-size: cover;
+}
+
+.info-card {
+position: absolute;
+transform: translateY(60px);
+}
+
+.custom-font{
+    font-family: 'Rampart One', cursive;
+  }
+
+@media(max-width: 800px){
+.disappear{ display: none;
+}
+}
+
+.full{
+    background-color: #080213;
+}
+
+.nav-bar{
+    color:greenyellow
+}
