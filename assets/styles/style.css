@@ -13,9 +13,23 @@ transform: translateY(60px);
   }
 
 @media(max-width: 800px){
-#disappear{ display: none;
+.disappear{ display: none;
+}
 }
 
-.contact-card{
+/* .contact-card{
     max-width: 100px;
+}
+
+@media(max-width:800px){
+    .disappear{position:relative}
+}
+} */
+
+.full{
+    background-color: #080213;
+}
+
+.nav-bar{
+    color:greenyellow
 }
