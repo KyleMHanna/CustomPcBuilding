@@ -2,3 +2,14 @@
     background-image: url("https://via.placeholder.com/200");
     background-size: cover;
 }
+
+.info-card{
+position: absolute;
+transform: translateY(30px);
+}
+
+
+@media(max-width: 800px){
+    #disappear{
+        display: none;
+    }
