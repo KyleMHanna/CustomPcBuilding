@@ -10,6 +10,5 @@ transform: translateY(30px);
 
 
 @media(max-width: 800px){
-    #disappear{
-        display: none;
-    }
+#disappear{display: none;
+}
