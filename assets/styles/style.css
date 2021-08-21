@@ -3,9 +3,9 @@
     background-size: cover;
 }
 
-.info-card{
+.info-card {
 position: absolute;
-transform: translateY(30px);
+transform: translateY(20px);
 }
 
 
