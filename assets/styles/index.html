@@ -14,9 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
 
-
-    
 </head>
 <style>
     /* This is for wire framing to see our rows/columns */
@@ -53,11 +52,11 @@
 
 </header>
 <main>
-  <!-- first container -->
+  <!-- first container text over image -->
   <div class="container-fluid"> 
     <div class="row backroundimg">
-      <div class="col-md-5 text-center ">
-      <div class="card">
+      <div class="col-md-5  ">
+      <div class="card" style="text-align: center;">
           <div class="">
             <div class="card-body">
               <h2 class="card-title">Card title</h2>
@@ -75,7 +74,7 @@
       </div>
     </div>
   </div>
-  <!-- second container -->
+  <!-- second container spill image on bigger screens -->
  <div class="container-fluid">
   <div class="row align-items-center d-flex ">
          <div class="col-md-5">
@@ -84,21 +83,27 @@
            
          </div>
          <div class="col-md-7">
-          <div class="card position-absolute bottom-50 end-0 m-3 me-5" style="">
+          <div class="card" style="">
             
             <ul class="list-group list-group-flush">
               <li class="list-group-item">An item</li>
-              <li class="list-group-item">A seconsdfsdfsdfdsfsdfsdfsdfsdfdd item</li>
+             
+              <li class="list-group-item">
+                <i class="mdi mdi-twitch mdi-24px text-secondary"
+                aria-hidden="true"></i>A third item</li>
+
+              <li class="list-group-item">
+                
+                A third item</li>
               <li class="list-group-item">A third item</li>
-              <li class="list-group-item">A third item</li>
-              <li class="list-group-item">A third item</li>
+
             </ul>
           </div>
          </div>
        </div>
     
       <div class="row">
-         <div class="col-md-4 ">
+         <div class="col-md-4 text-center">
            <!-- placeholder image -->
            <img src="https://via.placeholder.com/200" alt="">
          </div>
@@ -145,8 +150,10 @@
 </div>
 <!-- last container -->
 <div class="container-fluid">
-  <div class="row text-center">
-    <div class="col-md-12">blankspace</div>
+  <div class="row text-align-left bg-success">
+    <div class="col-md-12">
+      <h3>title title title</h3>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic accusantium accusamus harum, iste error dolores sit eligendi expedita cupiditate adipisci sint ipsa quos, perferendis vero laboriosam voluptatum fugit a.</h5></div>
   </div>
 </div>
 
