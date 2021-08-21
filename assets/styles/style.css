@@ -17,15 +17,6 @@ transform: translateY(60px);
 }
 }
 
-/* .contact-card{
-    max-width: 100px;
-}
-
-@media(max-width:800px){
-    .disappear{position:relative}
-}
-} */
-
 .full{
     background-color: #080213;
 }
