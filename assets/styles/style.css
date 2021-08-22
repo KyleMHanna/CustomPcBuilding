@@ -1,3 +1,7 @@
+:root{
+    scroll-behavior: smooth;
+  }
+
 .backroundimg {
     background-image: url("https://wallpaperaccess.com/full/2770499.jpg");
     background-size: cover;
